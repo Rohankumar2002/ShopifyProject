@@ -1,0 +1,243 @@
+.container{
+    max-width: 1400px;
+}
+#head1{
+    padding-top: 100px;
+    color: rgb(7, 155, 19);
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+#i2{
+    color:  rgb(9, 30, 122);
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+
+}
+#a1{
+    background-color: rgb(214, 91, 43);
+    padding: 5px 15px;
+    color: white;
+    font-size: 20px;
+    border-radius: 50px;
+    
+}
+#a1:hover{
+    background-color: black;
+    border-radius: 50px;
+    color: whitesmoke;
+}
+@media screen and (max-width:567px) {
+    #head1{
+        padding-top: 5px;
+    }
+    #i2{
+        font-size: 30px;
+    }
+    
+}
+@media screen and (min-width:568px ) and (max-width:800px) {
+    .container{
+        max-width: 800px;
+    }
+    #head1{
+        padding-top: 20px;
+        padding-left: 20px;
+    }
+    #i2{
+        font-size: 35px;
+        padding-left: 20px;
+    }
+    
+}
+
+/*corousel*/
+
+
+.container-md{
+    max-width: 1700px;
+    background-color: rgb(247, 174, 80);
+}
+#head2{
+    padding-top: 100px;
+    color: rgb(10, 40, 104);
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+.carousel-control-next-icon{
+    background-color: black;
+    border-radius:18px;
+    background-size: 60%;
+}
+.carousel-control-prev-icon{
+    background-color: black;
+    border-radius:18px;
+    background-size: 60%;
+}
+
+@media screen and (max-width:567px) {
+    #head2{
+        padding-top: 5px;
+    }
+}
+@media screen and (min-width:568px ) and (max-width:900px) {
+    
+    #head2{
+        padding-top: 20px;
+    }
+}
+
+/*Featured products*/
+#Featured span{
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+#Featured .card{
+    border: none;
+    background-color: rgb(154, 196, 236);
+}
+.pro{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+h5{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: black;
+}
+#Featured .card{
+    border-radius: 0;
+    box-shadow: 5px 5px 15px #4390e9;
+    transition: all 0.3s ease-in;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+}
+
+#Featured .card:hover{
+    background-color: #2445da;
+    color: white;
+    border-radius: 5px;
+    border:none;
+    box-shadow: 5px 5px 10px #9E9E9E;
+}
+
+@media  screen and (max-width:567px){
+    .pro{
+        font-size: 20px;
+    } 
+    #Featured img{
+        width: 100%;
+    }  
+    #Featured .card{
+        width: 85%;
+        margin: auto;
+    }
+}
+
+/*Returns*/
+
+.container-lg{
+    max-width: 1700px;
+}
+#sub h5{
+    color: white;
+    font-weight: normal;
+    padding: 30px 10px;
+    font-size: 30px;
+}
+
+
+
+@media  screen and (max-width:567px){
+    #sub h5{
+        font-size: 20px;
+        padding: 10px 5px;
+    }   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*styles*/
+
+
+#style{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+h1{
+    text-align: center;
+    font-size: 80px;
+    font-weight: bolder;
+    font-family: 'Poppins', sans-serif;
+
+}
+.h{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+#i1{
+    font-size: 20px;
+    font-weight: unset;
+    font-family: 'Satisfy', cursive;
+}
+#style img{
+    margin-top: -70px;
+}
+#style .card{
+    border-radius: 0;
+    box-shadow: 5px 5px 15px #e74c3c;
+    transition: all 0.3s ease-in;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+}
+#style .card:hover{
+    background-color: #e74c3c;
+    color: white;
+    border-radius: 5px;
+    border:none;
+    box-shadow: 5px 5px 10px #9E9E9E;
+}
+.fab{
+    color: #e74c3c;
+    font-size: 25px;
+}
+#style .card:hover i{
+    color: white;
+}
+
+@media  screen and (max-width:567px){
+    .h{
+        font-size: 20px;
+    } 
+    #style img{
+        width: 100%;
+    }  
+    #style .card{
+        width: 90%;
+        margin: auto;
+    }
+}
+
+
+

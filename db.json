@@ -1,0 +1,265 @@
+{
+    "MenProducts":[
+        {
+            "id":1,
+            "image":"https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/2042528/2017/9/28/11506599316866-Mast--Harbour-Men-Red--Blue-Regular-Fit-Checked-Casual-Shirt-7991506599316924-1.jpg",
+            "brand":"Mast & Harbour",
+            "description":"Men Red & Blue Checked Casual Shirt",
+            "price":1199,
+            "productdetails":"Red and blue checked casual shirt, has a button-down collar, button placket, 1 pocket, long sleeves, curved hem",
+            "sm":{
+                "size":"Regular Fit,the model (height 6') is wearing a size M",
+                "material":"Cotton and Machine-wash"
+            }
+
+        },
+        {
+            "id":2,
+            "image":"https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/2296348/2018/12/3/c83c655c-9321-4729-a1a3-47efe05da8721543823157983-WROGN-Men-Blue--White-Slim-Fit-Checked-Casual-Shirt-5721543823157862-4.jpg",
+            "brand":"Wrogn",
+            "description":"Men Blue & White Slim Fit Checked Casual Shirt",
+            "price":1679,
+            "productdetails":"Blue and white checked casual shirt, has a spread collar, button placket, one patch pocket, long sleeves, curved hem",
+            "sm":{
+                "size":"Slim fit and the model (height 6') is wearing a size 40",
+                "material":"100% cotton and Machine-wash"
+            }
+
+        },
+        {
+            "id":3,
+            "image":"https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/1847237/2017/5/29/11496034346948-Harvard-Men-Navy-Checked-Casual-Shirt-7641496034346671-1.jpg",
+            "brand":"Harvard",
+            "description":"Men Navy Checked Slim Fit Casual Shirt",
+            "price":1099,
+            "productdetails":"Navy blue checked casual shirt, has a spread collar, button placket, long sleeves with roll-up tabs, a chest pocket, curved hem",
+            "sm":{
+                "size":"The model (height 6') is wearing a size 40",
+                "material":"100% cotton and Machine-wash"
+            }
+
+        },
+        {
+            "id":4,
+            "image":"https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/2290034/2019/3/15/6cbb2bda-b7fc-44e7-97bb-a8db5daf47261552651486895-HIGHLANDER-Men-Pink-Solid-Slim-Fit-Solid-Casual-Shirt-119155-1.jpg",
+            "brand":"HighLander",
+            "description":"Men Pink Solid Slim Fit Solid Casual Shirt",
+            "price":1489,
+            "productdetails":"Pink solid casual shirt, has a mandarin collar, button placket, 1 pocket, long sleeves, curved hem",
+            "sm":{
+                "size":"Slim fit and the model (height 6') is wearing a size 40",
+                "material":"100% cotton and Machine-wash"
+            }
+
+        },
+        {
+            "id":5,
+            "image":"https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/10941384/2020/2/13/08eec2e1-2695-4c59-8300-f1e905db56ce1581587257447-Roadster-Men-Tshirts-8221581587255142-3.jpg",
+            "brand":"Roadster",
+            "description":"Men Black Solid Round Neck T-shirt",
+            "price":399,
+            "productdetails":"Black solid T-shirt, has a round neck, and long sleeves",
+            "sm":{
+                "size":"The model (height 6') is wearing a size M",
+                "material":"100% cotton and Machine-wash"
+            }
+
+        },
+        {
+            "id":6,
+            "image":"https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/2339655/2018/4/20/11524208739198-WROGN-Men-Blue-Colourblocked-Polo-Collar-T-shirt-3091524208739069-1.jpg",
+            "brand":"Wrogn",
+            "description":"Men Blue & Green Colourblocked Polo T-shirt",
+            "price":1199,
+            "productdetails":"Blue and green colourblocked T-shirt, has a polo collar, short sleeves",
+            "sm":{
+                "size":"The model (height 6') is wearing a size M",
+                "material":"100% cotton and Machine-wash"
+            }
+
+        },
+        {
+            "id":7,
+            "image":"https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/13963428/2021/5/24/655d220b-89ce-428b-bed2-c3cf6ac4ed7c1621844986848-Jack--Jones-Men-Blue-Printed-Round-Neck-T-shirt-286162184498-1.jpg",
+            "brand":"Jack & Jones",
+            "description":"Men Blue Printed Round Neck T-shirt",
+            "price":599,
+            "productdetails":"Blue printed T-shirt, has a round neck, and short sleeves",
+            "sm":{
+                "size":"The model (height 6') is wearing a size M",
+                "material":"100% cotton and Machine-wash"
+            }
+
+        },
+        {
+            "id":8,
+            "image":"https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/11925890/2020/7/15/394486ca-de2f-4354-91f7-612dc5728c371594813807438-VEIRDO-Men-Tshirts-3501594813805924-1.jpg",
+            "brand":"Veirdo",
+            "description":"Men Navy Blue & White Colourblocked Round Neck T-shirt",
+            "price":399,
+            "productdetails":"Navy Blue and White colourblocked T-shirt, has a round neck, and sleeveless",
+            "sm":{
+                "size":"The model (height 6') is wearing a size M",
+                "material":"100% cotton,elastane and Machine-wash"
+            }
+
+        },
+        
+        {
+            "id":9,
+            "image":"https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2020/11/13/e687d932-7351-4523-8c24-31475d4cc42d1605209141812-1.jpg",
+            "brand":"Rigo",
+            "description":"Men Black Solid Sweatshirt",
+            "price":599,
+            "productdetails":"Black solid sweatshirt, has a round neck, straight hem, long sleeves",
+            "sm":{
+                "size":"The model (height 6') is wearing a size M",
+                "material":"Fleece and Machine-Wash"
+            }
+
+        },
+        {
+            "id":10,
+            "image":"https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2019/11/15/b99b1e2b-4415-49fc-a83d-746493b3e6811573794399620-1.jpg",
+            "brand":"Campus Sutra",
+            "description":"Men Mustard Yellow Printed Hooded Pullover Sweatshirt",
+            "price":849,
+            "productdetails":"Mustard yellow printed pullover sweatshirt, has a hood, two pockets, long sleeves, straight hem",
+            "sm":{
+                "size":"The model (height 6') is wearing a size M",
+                "material":"Cotton and Machine-Wash"
+            }
+
+        },
+        {
+            "id":11,
+            "image":"https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2019/9/10/03aa9f07-a875-436a-aa9e-25d64b9e0bd11568063138899-1.jpg",
+            "brand":"Campus Sutra",
+            "description":"Men Solid Sweatshirt",
+            "price":849,
+            "productdetails":"Grey printed sweatshirt,long sleeves.has a hood.ribbed hem,kangaroo pocket",
+            "sm":{
+                "size":"The model (height 6') is wearing a size M",
+                "material":"Cotton and Machine-Wash"
+            }
+
+        },
+        {
+            "id":12,
+            "image":"https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/11954448/2020/11/10/e38e6bea-b2c6-408f-9318-187c286d860b1604999195297-Kook-N-Keech-Garfield-Men-Sweatshirts-351604999194330-1.jpg",
+            "brand":"Kook N Keech Garfield",
+            "description":"Men Navy Blue & Mustard Yellow Printed Sweatshirt",
+            "price":1399,
+            "productdetails":"Navy blue and mustard yellow printed sweatshirt, has a round neck, one pocket, long sleeves, straight hem",
+            "sm":{
+                "size":"The model (height 6') is wearing a size M",
+                "material":"52% Cotton 48% Polyester and Machine Wash"
+            }
+
+        },
+        {
+            "id":13,
+            "image":"https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2021/4/26/6bf908d0-e59a-484b-8928-6c1660709f3d1619441420636-1.jpg",
+            "brand":"HighLander",
+            "description":"Men Green Solid Casual Blazer",
+            "price":1245,
+            "productdetails":"Green solid regular-fit casual blazer, has a notched lapel, single-breasted with a button closure, long sleeves, lightly padded shoulders, three pockets on the front, double vented back hem",
+            "sm":{
+                "size":"Regular Fit and The model (height 6') is wearing a size 40",
+                "material":"Cotton Linen and Machine-wash"
+            }
+
+        },
+        {
+            "id":14,
+            "image":"https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2020/7/19/05b25b82-fce4-4f10-b29d-c19983aff50a1595112016666-1.jpg",
+            "brand":"AD By Arvind",
+            "description":"Men Blue Self-Design Single-Breasted Formal Blazer",
+            "price":7999,
+            "productdetails":"Blue self-design formal blazer, has a notched lapel, single-breasted with button closures, long sleeves, two flap pockets, one chest welt pocket, a double-vented back hem, and attached lining",
+            "sm":{
+                "size":"Regular Fit and the model (height 6') is wearing a size 40",
+                "material":"Terylene blend and Machine wash"
+            }
+
+        },
+        {
+            "id":15,
+            "image":"https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/11188254/2020/12/4/3ce31c88-87ee-4a77-b368-a376d5098bee1607078188562-Blackberrys-Men-Blazers-9531607078186613-1.jpg",
+            "brand":"BlackBerrys",
+            "description":"Blue Checked Slim Fit Smart Casual Blazer",
+            "price":3847,
+            "productdetails":"Blue checked smart casual blazer, has a notched lapel collar, single-breasted, button closures on the front, 3 pockets, long sleeves, a double-vented back hem and an attached lining with three inner welt pocket",
+            "sm":{
+                "size":"Slim fit and the model (height 6') is wearing size 40",
+                "material":"83% terylene, 13% rayon, 4% spandex and Lining: 100% polyester and Dry Clean"
+            }
+
+        },
+        {
+            "id":16,
+            "image":"https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/1826038/2018/1/4/11515060883484-INVICTUS-Navy-Velvet-Slim-Fit-Blazer-9761515060883369-1.jpg",
+            "brand":"nvictus",
+            "description":"Navy Velvet Slim Fit Ethnic Bandhgala Blazer",
+            "price":4499,
+            "productdetails":"Navy blue velvet bandhgala, has a stylised mandarin collar, padded shoulders, a full button placket, long sleeves with buttoned detail, one pocket on the front, an attached lining with four welt pockets",
+            "sm":{
+                "size":"Slim fit and the model (height 6') is wearing a size 40",
+                "material":"83% terylene, 13% rayon, 4% spandex and Lining: 100% polyester and Dry Clean"
+            }
+
+        },
+        {
+            "id":17,
+            "image":"https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2021/4/28/93de5de3-7dc5-47d5-b05b-895f7b2014f11619609972039-1.jpg",
+            "brand":"Ecko Unltd",
+            "description":"Men Green Solid Tailored Jacket",
+            "price":1299,
+            "productdetails":"Green solid jacket, has a stand collar, 4 pockets, button closure, long sleeves, straight hem, and polyester lining",
+            "sm":{
+                "size":"The model (height 6') is wearing a size M",
+                "material":"Cotton and Machine-Wash"
+            }
+
+        },
+        {
+            "id":18,
+            "image":"https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2020/7/22/a6892b75-3e4e-4ec5-a4b4-344c7b1c5ec01595369962150-1.jpg",
+            "brand":"H&M",
+            "description":"Men Blue Washed Denim Sustainable Jacket",
+            "price":2999,
+            "productdetails":"Jacket in washed denim with a collar and buttons down the front. Flap chest pockets with a button, side pockets, buttoned cuffs and an adjustable tab and buttons at the sides.",
+            "sm":{
+                "size":"The model (height 6') is wearing a size M",
+                "material":"100% Cotton"
+            }
+
+        },
+        {
+            "id":19,
+            "image":"https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2021/4/7/c25e00dc-13eb-4d07-8c61-9b2cf45359fd1617781978130-1.jpg",
+            "brand":"Locomotive",
+            "description":"Men Blue & White Colourblocked Sporty Jacket",
+            "price":1159,
+            "productdetails":"Blue and White colourblocked jacket, has a hooded, 2 pockets, zip closure, long sleeves, straight hem, and unlined lining",
+            "sm":{
+                "size":"The model (height 6') is wearing a size M",
+                "material":"100% Cotton and Machine-Wash"
+            }
+
+        },
+        {
+            "id":20,
+            "image":"https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2019/9/18/98182784-a56d-4a27-825b-7d026682aa6e1568813052433-1.jpg",
+            "brand":"Locomotive",
+            "description":"Men Grey Solid Denim Jacket",
+            "price":1202,
+            "productdetails":"Grey solid denim jacket with applique details, has a spread collar, 2 pockets, button closure, long sleeves, straight hem",
+            "sm":{
+                "size":"The model (height 6') is wearing a size M",
+                "material":"100% Cotton and Machine-Wash"
+            }
+
+        }
+    ]
+}
