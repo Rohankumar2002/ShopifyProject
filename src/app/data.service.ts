@@ -13,4 +13,7 @@ export class DataService {
   getUserById():Observable<MenProducts>{
     return this.hc.get<MenProducts>('http://localhost:3000/MenProducts')
   }
+  getUserByIdWise(id):Observable<MenProducts>{
+    return this.hc.get<MenProducts>('http://localhost:3000/MenProducts/'+id)
+  }
 }

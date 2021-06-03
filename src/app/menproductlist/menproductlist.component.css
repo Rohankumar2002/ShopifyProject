@@ -1,0 +1,47 @@
+
+h5{
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+#product .card{
+    border-radius: 18px;
+    background-image: linear-gradient(to right,rgb(230, 75, 178),rgb(238, 91, 46));
+    box-shadow: 5px 5px 15px #4390e9;
+    transition: all 0.3s ease-in;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    border: none;
+    color: rgb(12, 11, 11);
+}
+p{
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+img{
+    border-top-right-radius: 18px;
+    border-top-left-radius: 18px;
+    border-bottom-left-radius: none;
+    border-bottom-right-radius: none;
+}
+img:hover{
+    transform: scale(1.05);
+    border-radius: 18px;
+}
+
+#product .card:hover{
+    background-color: #fda013;
+    color: black;
+    border-radius: 18px;
+    border:none;
+    box-shadow: 5px 5px 10px #9E9E9E;
+}
+#product .card .icon:hover{
+    color: chartreuse;
+}
+
+@media screen and (max-width:567px) {
+    #product .card{
+        width: 80%;
+        margin: auto;
+    }
+}

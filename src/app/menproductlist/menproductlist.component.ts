@@ -1,4 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 
 @Component({
@@ -8,11 +9,14 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class MenproductlistComponent implements OnInit {
 
-  constructor() { }
+  constructor(private router:Router) { }
   @Input() menObject;
 
   ngOnInit(): void {
   
+  }
+  onSelectId(id){
+    this.router.navigateByUrl('men/'+id)
   }
 
 }

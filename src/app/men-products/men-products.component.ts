@@ -20,5 +20,5 @@ export class MenProductsComponent implements OnInit {
       }
     )
   }
-
+ 
 }

@@ -1,0 +1,11 @@
+p{
+    font-weight: bold;
+    color: rgb(17, 38, 131);
+    font-size: 40px;
+}
+@media screen and (max-width:567px) {
+    p{
+        font-size: 30px;
+        text-align: center;
+    }   
+}

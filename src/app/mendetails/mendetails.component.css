@@ -1,0 +1,38 @@
+button{
+    padding: 9px 15px;
+    background-color: black;
+    color: white;
+    transition: all 0.3s ease-in;
+    -webkit-transition: all 0.2s ease-out;
+    font-weight: 600;
+    border-radius: 5px;
+    border: none;
+}
+button:hover{
+    background-color: red;
+    color: white;
+}
+p{
+   color: black;
+   font-size: 17px;
+   font-family: 'Poppins', sans-serif;
+}
+h6{
+   color: black;
+   font-family: 'Poppins', sans-serif;
+}
+h4{
+    color: rgb(8, 8, 80);
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+h5{
+    color: rgb(8, 8, 80);
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+@media screen and (max-width:567px) {
+    h4{
+        font-size:25px
+    }
+}
