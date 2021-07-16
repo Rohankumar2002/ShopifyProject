@@ -1,8 +1,8 @@
 <!--Nav-bar-->
 <nav class="navbar navbar-expand-lg navbar-light">
   <a class="navbar-brand" routerLink="home"><img src="https://cdn3.iconfinder.com/data/icons/social-media-2068/64/_shopping-512.png" width="60px">Shopify</a>
-  <button class="navbar-toggler navbar-toggler-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navcollapse" aria-controls="navcollapse" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navcollapse" aria-controls="navcollapse" aria-expanded="false" aria-label="Toggle navigation" style="background-color: rgb(146, 144, 238);">
+    <span class="toggle-icon"><i class="fas fa-bars"></i></span>
   </button>
   <div class="collapse navbar-collapse" id="navcollapse">
     <ul class="navbar-nav ms-auto">
@@ -11,11 +11,11 @@
         <li class="nav-item">
           <div class="dropdown">
           <a data-bs-toggle="dropdown" class="dropdown-toggle nav-link" style="color:rgb(17, 38, 131);">Clothing<i class="fas fa-tshirt ms-1"></i></a>
-           <ul class="dropdown-menu dropdown-menu-dark">
+           <ul class="dropdown-menu">
              
             <li><a routerLink="men" routerLinkActive="active" class="dropdown-item">Men</a></li>
-            <li><a  class="dropdown-item">Women</a></li>
-            <li><a href="" class="dropdown-item">Kids</a></li>
+            <li><a routerLink="women" routerLinkActive="active" class="dropdown-item">Women</a></li>
+            <li><a routerLink="kids" routerLinkActive="active"  class="dropdown-item">Kids</a></li>
 
            </ul>
          </div>
@@ -27,10 +27,20 @@
 
 
       <li class="nav-item">
-        <a class="nav-link" style="color:rgb(17, 38, 131);"  routerLinkActive="active">Accessories</a>
+        <a class="nav-link" style="color:rgb(17, 38, 131);" routerLink="access" routerLinkActive="active">Accessories</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" style="color:rgb(17, 38, 131);" routerLink="login" routerLinkActive="active">Login</a>
+
+    
+      <li class="nav-item" *ngIf="!us.userLoginStatus">
+        <a class="nav-link" style="color:rgb(17, 38, 131);" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" routerLink="login" routerLinkActive="active">Login</a>
+      </li>
+
+      <li class="nav-item" *ngIf="us.userLoginStatus">
+        <a class="nav-link" style="color:rgb(17, 38, 131);" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" routerLink="login" routerLinkActive="active" (click)=userLogout()>Logout</a>
+      </li>
+        
+      <li class="nav-item" *ngIf="us.userLoginStatus">
+        <a class="nav-link" routerLink="cart" routerLinkActive="active" style="color:rgb(17, 38, 131);"><i class="fas fa-shopping-bag ms-2 me-1"></i>{{count}}</a>
       </li>
 
 
@@ -39,7 +49,7 @@
       <!--Sign up modal-->
 
       
-      <li class="nav-item">
+      <li class="nav-item" *ngIf="!us.userLoginStatus">
 
         <button class="btn btn-dark" data-bs-target="#md" data-bs-toggle="modal">Sign Up</button>
 
@@ -53,19 +63,19 @@
 
                         <h4 class="text-center text-white mt-5 mb-4">CREATE ACCOUNT</h4>
 
-                        <form>
+                        <form #ref="ngForm" (ngSubmit)="onSignUp(ref.value)">
                            <div class="form-floating mb-3 ms-sm-4 me-sm-4"> 
-                               <input type="text" name="firstname" id="fn" class="form-control " placeholder="Full Name" >
+                               <input type="text" name="firstname" id="fn" class="form-control " placeholder="Full Name" ngModel>
                                <label for="fn">Full Name</label>
                            </div>
                
                            <div class="form-floating mb-3 ms-sm-4 me-sm-4">
-                                <input type="text" name="email" id="em" class="form-control" placeholder="Email">
+                                <input type="text" name="email" id="em" class="form-control" placeholder="Email"  ngModel>
                                 <label for="em">Email</label>
                            </div>
 
                            <div class="form-floating ms-sm-4 me-sm-4 mb-3 ">
-                               <input type="text" name="mobilenumber" id="mbno" class="form-control" placeholder="Mobile Number" >
+                               <input type="text" name="mobilenumber" id="mbno" class="form-control" placeholder="Mobile Number" ngModel>
                                 <label for="mbno">Mobile Number</label>
                            </div>
                
@@ -80,13 +90,13 @@
                           <div class="row g-3 mb-3 ms-sm-3 me-sm-3">
                             <div class="col-md">
                               <div class="form-floating">
-                                <input type="password" class="form-control" id="pw" placeholder="Password">
+                                <input type="password" class="form-control" id="pw" placeholder="Password" name="password" ngModel>
                                 <label for="pw">Password</label>
                               </div>
                             </div>
                             <div class="col-md">
                               <div class="form-floating ">
-                                <input type="password" class="form-control" id="rpw" placeholder="Password">
+                                <input type="password" class="form-control" id="rpw" placeholder="Password" ngModel>
                                 <label for="rpw">Retype-Password</label>
                               </div>
                             </div>
@@ -96,14 +106,14 @@
                          
                
                             <div class="form-check mb-2 d-flex justify-content-center">
-                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" ngModel>
                                 <label class="form-check-label text-white ms-1 mt-1" for="flexCheckDefault">
                                   I agree to the terms and conditions 
                                 </label>
                               </div>
 
                             <div class="mb-3 text-center">
-                              <button class="btn btn-warning"><i class="fas fa-user-plus me-2"></i>Register</button>
+                              <button class="btn btn-warning" type="submit"><i class="fas fa-user-plus me-2"></i>Register</button>
                             </div>
                
                             
@@ -125,6 +135,12 @@
       </li>
 
 
+      <!-- <li class="nav-item">
+        <div class="search-box">
+            <input type="text" class="search-txt" placeholder="Search Here..." name="brand">
+             <a class="search-btn" href="#"><i class="fas fa-search ms-1"></i></a>
+        </div>
+      </li> -->
 
 
 
@@ -138,11 +154,7 @@
 
 
 
-
-      
-      <li class="nav-item">
-        <a class="nav-link" href="#" style="color:rgb(17, 38, 131);"><i class="fas fa-shopping-bag ms-2"></i></a>
-      </li>
+   
       
       
     </ul>
@@ -150,6 +162,8 @@
   </div>
   
 </nav>
+
+
 
 
 
@@ -165,10 +179,19 @@
 
 
 
+
+
+
+
+
+
+
+
+
 <!--Footer component-->
 
 
-<div class="bgcolor">
+<div class="sticky-footer">
   <div class="container bottom_border">
   <div class="row ">
   <div class="col col-sm-4 col-md-4 col-12 mt-5 text-muted">

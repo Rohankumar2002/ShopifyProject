@@ -1,0 +1,102 @@
+<div class="container">
+    <h3 class="text-end me-3 mt-3 mb-2">Welcome, <span>{{userObj.firstname}}<i class="far fa-smile text-dark ms-2 me-4 mt-3 mb-2"></i></span></h3>
+<div class="text-end me-4">
+     <h5 class="text-dark me-4">{{userObj.email}}</h5>
+     <!-- <h5 class="text-dark">Phone:{{userObj.mobilenumber}}</h5> -->
+</div>
+ <!-- <li class="nav-item">
+    <a class="nav-link" routerLinkActive="active" routerLink="cart">
+        <i class="fas fa-cart-arrow-down" style="color: #ec2399;"></i>
+        Cart <span class="badge bg-dark text-white ms-2">{{count}}</span>
+    </a>
+</li> -->
+<h6 class="text-center text-danger mt-4 mb-4">BAG------ADDRESS------PAYMENT</h6>
+<div class="row">
+
+    <div class="col col-lg-7 col-sm-6">
+    <div class="pincode">
+            <p class="ms-2">Check delivery time & services<a href="#" class="check text-end float-end me-2">CHECK PINCODE</a></p>
+            
+    </div>
+    <div class="offers mt-3">
+        <p style="font-weight: bold;" class=""><img src="https://image.flaticon.com/icons/png/128/879/879757.png" class="ms-2 me-2" alt="" width="5%">Available offers</p>
+        <ul>
+            <li>10% Instant discount on Citi and Debit Cards on a minimum spend of Rs 3,000 TCA</li>
+            <li>20% Instant Discount on slice card on a minimum spend of Rs 1,000 TCA</li>
+            <li>5% Unlimited Cashback on Axis Bank Credit Card TCA</li>
+        </ul>
+        
+    </div>
+    <div class="fee mt-3">
+        <p class=""><i class="fas fa-shipping-fast ms-2 me-2" style="font-size: 20px;"></i>Yay! <span style="font-weight: bold;font-size: 20px;">No Convenience Fee</span> on this order.</p>
+        
+    </div>
+    <h5 class="text-start mt-3 ms-2">
+        My shopping Bag (<span>{{count}} items</span>)
+    </h5>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <table class="table table-striped text-center mx-auto mt-5">
+            <!-- <thead>
+                <th>Brand</th>
+                <th>Price</th>
+                <th>Image</th>
+            </thead> -->
+            <tbody>
+                <tr *ngFor="let product of userCartObj.products">
+                    <td class="col-4">
+                        <img src={{product.image}} width="60%" alt="">
+                    </td>
+                    <td class="col-4 text-start"><h5>{{product.brand}}</h5><br>{{product.description}}</td>
+                    <td class="col-4"><i class="fas fa-rupee-sign me-1"></i>{{product.price}}</td>
+                    
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="col col-lg-5 col-sm-6">
+        <div class="coupon">
+            <h6 class="ms-2">COUPONS</h6>
+            <p class="ms-2"><i class="fas fa-tag me-2" style="font-size: 20px;"></i>Apply coupons<a href="#" class="check text-end float-end me-2">APPLY</a></p>
+        </div>
+        <div class="details mt-3 mb-3">
+            <h6 class="ms-2">Price details</h6>
+            <div class="text-start ms-2">
+                <p>Total MRP</p>
+                <p>Discount on MRP</p>
+                <p>Coupon Discount</p>
+                <p>Convenience Fee</p>
+                <hr>
+                <h6>Total Amount</h6>
+                <hr>
+            </div>
+            <div class="text-center mt-2 mb-2"><a href="#" class="amount">PLACE ORDER</a></div>
+            
+        
+        </div>
+    </div>
+
+</div>
+</div>

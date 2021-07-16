@@ -1,0 +1,23 @@
+<div class="container-img">
+    <div class="container">
+    <div class="row fashion mt-5">
+        <div class="col-sm-6">
+            <img class="image1" src="https://sunrisemarketplace.com/wp-content/uploads/2017/09/SMP-apparel-accessories-banner.jpg" width="100%" height="320px" alt="">
+        </div>
+        <div class="col-sm-6">
+             <img class="image1" src="https://previews.123rf.com/images/evrojay/evrojay1809/evrojay180900274/109459794-christmas-set-of-fashion-accessories-flat-lay-shoes-handbag-necklace-jewelry-gold-color-on-blue-grey.jpg" width="100%" height="320px" alt="">
+        </div>  
+    </div>
+    </div>
+</div>    
+<div class="container">    
+    <p class="text-center mt-5" style="font-family:'Ubuntu', sans-serif;"><img src="https://image.flaticon.com/icons/png/128/3225/3225000.png" width="43px" class="me-2" alt="">Accessories</p>
+    <hr>
+    <input type="text" name="brand" placeholder="Search for brands & products"  class="form-control mt-3 d-block mx-auto  p-3" [(ngModel)]="searchTerm" style="background-color: white;border:1px solid rgb(238, 130, 130);border-radius: 15px;">
+    <div class="row row-cols-sm-2 row-cols-md-4 row-cols-lg-5 g-4 mt-2 mb-5">
+        <div class="col-sm-6" *ngFor="let accessObj of Accessories|searchpipe:searchTerm">
+            <app-accessoriesproductlist [accessObject]=accessObj ></app-accessoriesproductlist>
+        </div>
+    </div>
+</div>
+

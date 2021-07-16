@@ -1,0 +1,41 @@
+.container-img{
+    max-width: 1700px;
+    background-image: linear-gradient(to right,rgb(241, 142, 28),rgb(245, 43, 184));
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+img{
+    margin-top: 17px;
+    margin-bottom: 17px;
+} 
+.fashion{
+    border: 2px dashed black;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-image: linear-gradient(to right,rgb(241, 142, 28),rgb(245, 72, 193));
+}
+p{
+    font-weight: bold;
+    color: black;
+    font-size: 40px;
+}
+input{
+    width: 75%;
+}
+@media screen and (max-width:567px) {
+    p{
+        font-size: 30px;
+        text-align: center;
+    }   
+    .fashion{
+        border: none;
+    }
+    .image1{
+        height: 180px;
+    }
+    input{
+        width: 95%;
+    }
+    
+}

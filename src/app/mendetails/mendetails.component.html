@@ -1,12 +1,14 @@
 <div class="container">
     <div class="row">
         <div class="col col-sm-6">
-            <img src={{menObjects.image}} class="d-block mx-auto mt-5 mb-5" alt="">
+            <img src={{menObjects.image}} class="image1 d-block mx-auto mt-5 mb-5" alt="">
+
         </div>
         <div class="col col-sm-6 mt-5">
              <h3>{{menObjects.brand}}</h3>
              <h6>{{menObjects.description}}</h6>
              <h5><i class="fas fa-rupee-sign me-1"></i>{{menObjects.price}}</h5>
+             <p class="tax">inclusive of all taxes</p>
              <hr>
              <h4>PRODUCT DETAILS</h4>
              <p>{{menObjects.productdetails}}</p>
@@ -14,7 +16,25 @@
              <p>{{menObjects.sm.size}}</p>
              <h5>Material & Care</h5>
              <p>{{menObjects.sm.material}}</p>
-             <button type="submit" class="mb-4">ADD TO CART<i class="fas fa-cart-plus ms-2"></i></button>
+             <button class="mb-4"  (click)="onProductSelect(menObjects)"> ADD TO CART<i class="fas fa-cart-plus ms-2"></i> </button>
+             <hr>
+             <div class="product mt-2">
+                <div class="row row-cols-sm-2 row-cols-lg-3">
+                    <div class="col">
+                        <img class="ms-3"  width="30%" src="https://cdn2.iconfinder.com/data/icons/ecommerce-objects/32/31_verified_product_approval_label_sticker_genuine_true_right-512.png" alt="">
+                        <h6 class="one mb-3 mt-2">Genuine Product</h6>
+                    </div>
+                    <div class="col">    
+                        <img class="ms-4" width="30%" src="https://image.flaticon.com/icons/png/128/3176/3176294.png" alt="">
+                        <h6 class="one mb-3 mt-2">Quality Checked</h6>
+                    </div>
+                </div>
+             </div>  
+             <hr>
+             <h5>Easy 30 days returns and exchanges</h5>
+             <p class="mb-4">Choose to return or exchange for a different size(if available) within 30 days.</p>  
         </div>
     </div>
 </div>
+
+

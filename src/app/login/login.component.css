@@ -35,7 +35,8 @@ form{
     font-weight: 600;
 }
 img{
-    padding: 25px 5px;
+   border-radius: 18px;
+   border: 2px dashed black;
 }
 @media screen and(max-width:567px) {
     .form-control{

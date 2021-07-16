@@ -1,17 +1,17 @@
 <div class="container">
     <div class="row">
         <div class="col-sm-12 col-md-12 col-lg-6 mt-5">
-           <img src="https://cdn-images-fishry.azureedge.net/themes/Summer-21-Main-Banner-6-b518750-ismail-stores.jpg" width="100%" alt="">
+           <img src="https://i.pinimg.com/originals/da/c7/2a/dac72a62cdd9ea4fe12edcc178525c5b.jpg" width="100%" height="90%" class="" alt="">
         </div>
         <div class="col-sm-12 col-md-12 col-lg-6 mt-5 mb-5">
-            <form class="w-100 ">
+            <form class="w-100" #ref="ngForm" (ngSubmit)="onLogin(ref.value)">
                 <h1 class="text-center text-white mt-5">LOGIN</h1>
                 <div class="form-floating mb-3 mt-3">
-                    <input type="email" class="form-control" id="un" placeholder="name@example.com">
+                    <input type="email" class="form-control" id="un" placeholder="name@example.com" name="email" ngModel>
                     <label for="un" class="form-label">Email address</label>
                   </div>
                   <div class="form-floating">
-                    <input type="password" class="form-control" id="ps" placeholder="Password">
+                    <input type="password" class="form-control" id="ps" placeholder="Password" name="password" ngModel>
                     <label for="ps" class="form-label">Password</label>
                   </div>
                   <button class="btn btn-warning text-dark d-block mx-auto mt-3 mb-3" type="submit">Sign In</button>

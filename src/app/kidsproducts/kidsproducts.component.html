@@ -1,0 +1,23 @@
+<div class="container-img">
+    <div class="container">
+    <div class="row fashion mt-5">
+        <div class="col-sm-6">
+            <img class="image1" src="https://i.pinimg.com/originals/61/47/12/614712f5f6f0ea8e80c77e9ed9bc2359.jpg" width="100%" height="365px" alt="">
+        </div>
+        <div class="col-sm-6">
+             <img src="https://www.nicepng.com/png/detail/98-980665_kids-wear-clothes-spring-season-clothes-for-kids.png" width="100%" alt="">
+        </div>  
+    </div>
+    </div>
+</div>    
+<div class="container">
+    <p class="text-center mt-5" style="font-family:'Ubuntu', sans-serif;"><img src="https://image.flaticon.com/icons/png/128/3126/3126093.png" width="43px" class="me-2" alt="">Kids collections</p>
+    <hr>
+    <input type="text" name="brand" placeholder="Search for brands & products"  class="form-control mt-3 d-block mx-auto  p-3" [(ngModel)]="searchTerm" style="background-color: white;border:1px solid rgb(238, 130, 130);border-radius: 15px;">
+    <div class="row row-cols-md-4 row-cols-lg-5 g-4 mt-2 mb-5">
+        <div class="col-sm-6" *ngFor="let kidObj of KidsProducts|searchpipe:searchTerm">
+            <app-kidsproductlist [kidObject]=kidObj ></app-kidsproductlist>
+        </div>
+    </div>
+</div>
+

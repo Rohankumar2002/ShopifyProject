@@ -2,43 +2,57 @@
     max-width: 1400px;
 }
 #head1{
-    padding-top: 100px;
-    color: rgb(7, 155, 19);
+    padding-top: 70px;
+    color: rgb(146, 137, 6);
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
 }
 #i2{
-    color:  rgb(9, 30, 122);
-    font-family: 'Poppins', sans-serif;
-    font-weight: bold;
-    font-size: 50px;
+    color:  rgb(3, 17, 77);
+    font-family: 'Suez One', serif;
+    font-size: 60px;
 
 }
+.img1{
+    border-radius: 18px;
+}
 #a1{
-    background-color: rgb(214, 91, 43);
-    padding: 5px 15px;
+    background-color: rgb(241, 82, 19);
+    padding: 8px 18px;
     color: white;
-    font-size: 20px;
-    border-radius: 50px;
+    font-weight: bold;
+    font-size: 23px;
+    border-radius: 45px;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 3px 3px 3px rgb(8, 8, 8);
     
 }
 #a1:hover{
     background-color: black;
     border-radius: 50px;
     color: whitesmoke;
+
 }
 @media screen and (max-width:567px) {
     #head1{
         padding-top: 5px;
+        padding-left: 5px;
+        font-size: 25px;
     }
     #i2{
-        font-size: 30px;
+        font-size: 28px;
+        padding-left: 5px;
+    }
+    #a1{
+        margin-left: 5px;
+        font-size: 13px;
+        padding: 4px 14px;
     }
     
 }
 @media screen and (min-width:568px ) and (max-width:800px) {
     .container{
-        max-width: 800px;
+        max-width: 1000px;
     }
     #head1{
         padding-top: 20px;
@@ -59,7 +73,7 @@
     background-color: rgb(247, 174, 80);
 }
 #head2{
-    padding-top: 100px;
+    padding-top: 150px;
     color: rgb(10, 40, 104);
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
@@ -116,13 +130,13 @@ h5{
     -moz-transition: all 0.3s ease-out;
 }
 
-#Featured .card:hover{
-    background-color: #2445da;
+/* #Featured .card:hover{
+    background-color: #363234;
     color: white;
     border-radius: 5px;
     border:none;
     box-shadow: 5px 5px 10px #9E9E9E;
-}
+} */
 
 @media  screen and (max-width:567px){
     .pro{
@@ -132,8 +146,11 @@ h5{
         width: 100%;
     }  
     #Featured .card{
-        width: 85%;
+        width: 100%;
         margin: auto;
+    }
+    h5{
+        font-weight: none;
     }
 }
 
@@ -161,6 +178,7 @@ h5{
 
 
 
+  
 
 
 
@@ -239,5 +257,15 @@ h1{
     }
 }
 
+
+#brand{
+    display: flex;
+    align-items: center;
+    align-content: space-between;
+    flex-wrap: wrap;
+}
+#brand img{
+    margin-top: 100px;
+}
 
 

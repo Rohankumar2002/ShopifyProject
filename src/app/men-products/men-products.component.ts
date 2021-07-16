@@ -10,7 +10,7 @@ import { DataService } from '../data.service';
 export class MenProductsComponent implements OnInit {
   mySubscription:any;
   MenProducts;
-
+  searchTerm:string;
   constructor(private fsObj:DataService,private router:Router) { }
 
   ngOnInit(): void {

@@ -1,8 +1,21 @@
-<div class="container">
-    <p class="text-center mt-5" style="font-family:'Ubuntu', sans-serif;">Men collections</p>
+<div class="container-img">
+    <div class="container">
+    <div class="row fashion mt-5">
+        <div class="col-sm-6">
+            <img src="https://justdealindia.com/upload/1537699228cat3.jpg" width="100%" alt="">
+        </div>
+        <div class="col-sm-6">
+             <img src="https://i.pinimg.com/originals/94/50/ed/9450edc9e2da48e07031c79b8f725010.jpg" width="100%" alt="">
+        </div>  
+    </div>
+    </div>
+</div>    
+<div class="container">    
+    <p class="text-center mt-5" style="font-family:'Ubuntu', sans-serif;"><img src="https://img-premium.flaticon.com/png/128/2912/premium/2912592.png?token=exp=1624636187~hmac=c2f2152560110ff997d9bc92a7f1319c" width="43px" class="me-2" alt="">Men collections</p>
     <hr>
-    <div class="row row-cols-md-4 row-cols-lg-4 g-4 mt-2 mb-5">
-        <div class="col-sm-6" *ngFor="let menObj of MenProducts">
+    <input type="text" name="brand" placeholder="Search for brands & products"  class="form-control mt-3  d-block mx-auto  p-3" [(ngModel)]="searchTerm" style="background-color: white;border:1px solid rgb(238, 130, 130);border-radius: 25px;">
+    <div class="row row-cols-sm-2 row-cols-md-4 row-cols-lg-5 g-4 mt-2 mb-5">
+        <div class="col-sm-6" *ngFor="let menObj of MenProducts|searchpipe:searchTerm">
             <app-menproductlist [menObject]=menObj ></app-menproductlist>
         </div>
     </div>
